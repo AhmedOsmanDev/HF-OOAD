@@ -1,0 +1,12 @@
+
+Great Software
+    - The customer-friendly programmer says: Great software always does what the customer wants it to. So even if customers think of new ways to use the software, it doesn't break or give them unexpected results.
+    - The object-oriented programmer says: Great software is code that is object-oriented. So there's not a bunch of duplicate code, and each object pretty much controls its own behavior. It's also easy to extend because your design is really solid and flexible.
+    - The design-guru programmer says: Great software is when you use tried-and-true design patterns and principles. You've kept your objects loosely coupled, and your code open for extension but closed for modification. That also helps make the code more reusable, so you don't have to rework everything to use parts of your application over and over again.
+
+Great Software in 3 easy steps
+    1. Make sure your software does what the customer wants it to do.
+    2. Apply basic OO principles to add flexibility.
+    3. Strive for a maintainable, reusable design.
+
+DON'T CREATE PROBLEMS TO SOLVE PROBLEMS.
