@@ -8,6 +8,12 @@ Great Software in 3 easy steps
     1. Make sure your software does what the customer wants it to do.
     2. Apply basic OO principles to add flexibility.
         * Use a textual description of the problem you're trying to solve to make sure that your design lines up with the intended functionality of your application.
+        * The mystery of the mismatched object type
+            1- Objects should do what their names indicate.
+            2- Each object should represent a single concept.
+            3- Unused properties are a dead giveaway.
+        * Encapsulation allows you to hide the inner workings of your application's parts, but yet make it clear what each part does.
+        * Encapsulation is also about breaking your app into logical parts, and then keeping those parts separate. So just like you keep the data in your classes separate from the rest of your app's behavior, we can keep the generic properties of a guitar separate form the actual Guitar object itself.
     3. Strive for a maintainable, reusable design.
 
 DON'T CREATE PROBLEMS TO SOLVE PROBLEMS.
