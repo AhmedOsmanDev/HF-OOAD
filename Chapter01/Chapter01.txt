@@ -14,6 +14,13 @@ Great Software in 3 easy steps
             3- Unused properties are a dead giveaway.
         * Encapsulation allows you to hide the inner workings of your application's parts, but yet make it clear what each part does.
         * Encapsulation is also about breaking your app into logical parts, and then keeping those parts separate. So just like you keep the data in your classes separate from the rest of your app's behavior, we can keep the generic properties of a guitar separate form the actual Guitar object itself.
+        * Anytime you see duplicate code, look for a place to encapsulate!
+        * The idea behind encapsulation is to protect information in one part of your application from the other parts of your application. In its simplest form, you can protect the data in your class from the rest of your app by making that data private. But sometimes the information might be an entire set of properties - like the details about a guitar - or even behavior - like how a particular type of duck flies.
+        * That's the power of encapsulation: by breaking up the different parts of your app, you can change one part without having to change all the other parts.
     3. Strive for a maintainable, reusable design.
+    - Functionality: Without me, you'll never actually make the customer happy. No matter how well-designed your application is, I'm the thing that puts a smile on the customer's face.
+    - Design Pattern: I'm all about reuse and making sure you're not trying to solve a problem that someone else has already figured out.
+    - Encapsulation: You use me to keep the parts of your code that stay the same separate from the parts that change; then it's really easy to make changes to your code without breaking everything.
+    - Flexibility: Use me so that your software can change and grow without constant rework. I keep your application from being fragile.
 
 DON'T CREATE PROBLEMS TO SOLVE PROBLEMS.
