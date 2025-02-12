@@ -10,9 +10,10 @@ public class Inventory {
         guitars = new LinkedList();
     }
 
-    public void addGuitar(String serialNumber, double price, Builder builder, String model, Type type, Wood backWood,
+    public void addGuitar(String serialNumber, double price, Builder builder, String model, Type type, int numStrings,
+            Wood backWood,
             Wood topWood) {
-        Guitar guitar = new Guitar(serialNumber, price, builder, model, type, backWood, topWood);
+        Guitar guitar = new Guitar(serialNumber, price, builder, model, type, numStrings, backWood, topWood);
         guitars.add(guitar);
     }
 
