@@ -17,6 +17,23 @@ public class GuitarSpec {
         this.topWood = topWood;
     }
 
+    public boolean equals(GuitarSpec anObject) {
+        if (builder != anObject.builder)
+            return false;
+        if (model != null && !model.equals(anObject.model))
+            return false;
+        if (type != anObject.type)
+            return false;
+        if (numStrings != anObject.numStrings)
+            return false;
+        if (backWood != anObject.backWood)
+            return false;
+        if (topWood != anObject.topWood)
+            return false;
+
+        return true;
+    }
+
     public Builder getBuilder() {
         return builder;
     }

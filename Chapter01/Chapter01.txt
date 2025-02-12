@@ -18,9 +18,16 @@ Great Software in 3 easy steps
         * The idea behind encapsulation is to protect information in one part of your application from the other parts of your application. In its simplest form, you can protect the data in your class from the rest of your app by making that data private. But sometimes the information might be an entire set of properties - like the details about a guitar - or even behavior - like how a particular type of duck flies.
         * That's the power of encapsulation: by breaking up the different parts of your app, you can change one part without having to change all the other parts.
     3. Strive for a maintainable, reusable design.
+        * Delegation is when an object needs to perform a certain task, and instead of doing that task directly, it ask another object to handle the task (or sometimes just a part of the task).
+        * Delegation makes your code more reusable. It also lets each object worry about its own functionality, rather than spreading the code that handles a single object's behavior all throughout your application.
+        * Delegation lets each object worry about equality (or some other task) on its own. This means your objects are more independent of each other, or more loosely coupled. Loosely coupled objects can be taken from one app and easily reused in another , because they're not tightly tied to other objects' code.
+        * Loosely coupled is when the object in your application each have a specific job to do, and they do only that job. So the functionality of your app is spread out over lots of well-defined object, which each do a single task really well.
+        * Loosely coupled applications are usually more flexible, and easy to change. Since each object is pretty independent of the other objects, you can make a change to one object's behavior without having to change all the rest of your objects. So adding new features or functionality becomes a lot easier.
     - Functionality: Without me, you'll never actually make the customer happy. No matter how well-designed your application is, I'm the thing that puts a smile on the customer's face.
     - Design Pattern: I'm all about reuse and making sure you're not trying to solve a problem that someone else has already figured out.
     - Encapsulation: You use me to keep the parts of your code that stay the same separate from the parts that change; then it's really easy to make changes to your code without breaking everything.
     - Flexibility: Use me so that your software can change and grow without constant rework. I keep your application from being fragile.
 
 DON'T CREATE PROBLEMS TO SOLVE PROBLEMS.
+
+Object-Oriented Analysis & Design helps you write great software, every time: OOA&D is really just an approach to writing software that focuses on making sure your code does what it's supposed to, and that it's well designed. That means your code code if flexible, it's easy to make changes to it, and it's maintainable and reusable.
