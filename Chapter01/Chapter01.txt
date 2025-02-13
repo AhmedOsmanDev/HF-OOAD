@@ -23,11 +23,55 @@ Great Software in 3 easy steps
         * Delegation lets each object worry about equality (or some other task) on its own. This means your objects are more independent of each other, or more loosely coupled. Loosely coupled objects can be taken from one app and easily reused in another , because they're not tightly tied to other objects' code.
         * Loosely coupled is when the object in your application each have a specific job to do, and they do only that job. So the functionality of your app is spread out over lots of well-defined object, which each do a single task really well.
         * Loosely coupled applications are usually more flexible, and easy to change. Since each object is pretty independent of the other objects, you can make a change to one object's behavior without having to change all the rest of your objects. So adding new features or functionality becomes a lot easier.
-    - Functionality: Without me, you'll never actually make the customer happy. No matter how well-designed your application is, I'm the thing that puts a smile on the customer's face.
-    - Design Pattern: I'm all about reuse and making sure you're not trying to solve a problem that someone else has already figured out.
-    - Encapsulation: You use me to keep the parts of your code that stay the same separate from the parts that change; then it's really easy to make changes to your code without breaking everything.
-    - Flexibility: Use me so that your software can change and grow without constant rework. I keep your application from being fragile.
+
+Connect Exercise: -
+    Functionality: Without me, you'll never actually make the customer happy. No matter how well-designed your application is, I'm the thing that puts a smile on the customer's face.
+    Design Pattern: I'm all about reuse and making sure you're not trying to solve a problem that someone else has already figured out.
+    Encapsulation: You use me to keep the parts of your code that stay the same separate from the parts that change; then it's really easy to make changes to your code without breaking everything.
+    Flexibility: Use me so that your software can change and grow without constant rework. I keep your application from being fragile.
 
 DON'T CREATE PROBLEMS TO SOLVE PROBLEMS.
 
 Object-Oriented Analysis & Design helps you write great software, every time: OOA&D is really just an approach to writing software that focuses on making sure your code does what it's supposed to, and that it's well designed. That means your code code if flexible, it's easy to make changes to it, and it's maintainable and reusable.
+
+OOA&D is about writing a great software, not doing a bunch of paperwork!
+    * Customers are satisfied when their apps WORK.
+        = We can get requirements from the customer to make sure that we build them what they ask for. Use cases and diagrams are helpful ways to do that, but it's all about figuring out what the customer wants tha app to do.
+    * Customers are satisfied when their apps KEEP WORKING.
+        = Nobody is happy when an application that worked yesterday is crashing today. If we design our apps well, then they're going to be robust, and not break every time a customer uses them in unusual ways. Class and sequence diagrams can help show us design problems, but the point is to write well-designed and robust code.
+    * Customers are satisfied when their apps can be UPGRADED.
+        = There's nothing worse than a customer asking for a simple new feature, and being told it's going to take two weeks and $25,000 to make it happen. Using OO techniques like encapsulation, composition, and delegation will make your applications maintainable and extensible.
+    * Programmers are satisfied when their apps can be REUSED.
+        = Ever built something for one customer, and realized you could use something almost exactly the same for another customer? if you do just a little bit of analysis on your apps, you can make sure they're easily reused, by avoiding all sorts of nasty dependencies and associations that you don't really need. Concepts like the Open-Closed Principle (OCP) and the Single Responsibility Principle (SRP) are big time in helping here.
+    * Programmers are satisfied when their apps are FLEXIBLE.
+        = Sometimes just a little refactoring can take a good ap and turn it into a nice framework that can be used for all sorts of different things. This is where you can begin to move from being a head-down coder and start thinking like a real architect (oh yeah, those guys make a lot more money, too). Big-picture thinking is where it's at.
+
+Bullet Points
+    * It takes very little for something to go wrong with an application that is fragile.
+    * You can use OO principles like encapsulation and delegation to build applications that are flexible.
+    * Encapsulation is breaking your application into logical parts that have a clear boundary that allows an object to hide its data and methods from other objects.
+    * Delegation is giving another object the responsibility of handling a particular task.
+    * Always begin a project by figuring out what the customer wants.
+    * Once you've got the basic functionality of an app in place, work on refining the design so it's flexible.
+    * With a functional flexible design, you can employ design patterns to improve your design further and make your app easier to reuse.
+    * Find the parts of your application that change often, and try and separate them from the parts of your application that don't change.
+    * Building an application that works well but is poorly designed satisfies the customer but will leave you with pain, suffering, and lots fo late nights fixing problems.
+    * Object oriented analysis and design (OOA&D) provides a way to produce well-designed application that satisfy both the customer and the programmer.
+
+OOA&D Cross: -
+    1. Once your application works correctly, focus on this. DESIGN
+    2. Grouping your application into logical parts. ENCAPSULATION
+    3. The goal of OOA&D is to help you write this type of software. GREAT
+    5. Use this to let objects focus on more specific tasks. DELEGATION
+    6. A good way to avoid duplicate code. ENCAPSULATION
+    7. An application that things can go wrong in easily. FRAGILE
+    11. This is a four letter word your mom will be proud you know. OOAD
+    4. These help you avoid solving problems someone else has already solved. DESIGN PATTERNS
+    7. Customers focus on this part of your applications. FUNCTIONALITY
+    8. Objects in loosely coupled applications are more REUSABLE than tightly coupled ones.
+    9. Flexible applications are usually easy to CHANGE.
+    10. This is one type of code you don't want to write. DUPLICATE
+    12. Your application should be easy to MAINTAIN.
+    13. You usually need some sort of process to write great software CONSISTENTLY.
+    14. Encapsulate what VARIES.
+    15. These types of applications satisfy programmers. WELL-DESIGNED
