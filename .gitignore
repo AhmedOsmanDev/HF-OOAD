@@ -1,6 +1,9 @@
 
 *.iml
 *.pdf
+*.code-workspace
+
+*.class
 
 .idea/
 
