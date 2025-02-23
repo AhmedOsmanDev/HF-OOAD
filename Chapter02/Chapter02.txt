@@ -1,0 +1,12 @@
+
+So what exactly is a requirements, anyway? It's a specific thing your system has to do to work correctly.
+    - Remember, the customer decides when a system works correctly. So if you leave out a requirement, or even if they forget to mention something to you, the system isn't working correctly!
+    - System: is the complete app or project you're working on.
+    - Requirement: is usually a single thing, and you can test that thing to make sure you've actually fulfilled the requirement. A requirement is a singular need detailing what a particular product or service should be or do. It is most commonly used in a formal sense in systems engineering or software engineering.
+        * When it comes to requirements, the best thing you can do it let the customer talk. And pay attention to what the system need to do; you can figure out how the system will do those thing later.
+        * The best way to get good requirements is to understand what a system is supposed to do.
+        * Plan for things going wrong
+    - Use case: is what people call the steps that a system takes to make something happen. A use case describes what your system does to accomplish a particular customer goal.
+        * Use cases are all about the "What".
+        * Single use case focuses on a single goal.
+        * The customer goal is the point of the use case: what do all these steps need to make happen? We're focusing on the customer, remember? The system has to help that customer accomplish their goal.
