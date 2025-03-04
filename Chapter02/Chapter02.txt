@@ -25,3 +25,13 @@ So what exactly is a requirements, anyway? It's a specific thing your system has
 
 Checking your requirements against your use cases
     - Now you need to go back to your requirements and make sure that they'll cover everything your system has to do. And that's where the use case comes in.
+
+Your system must work in the real world, so plan and test for when things go wrong.
+
+External Initiator: Kicks off the list of steps described in a use case. Without this, a use case never gets going.
+Use Case: Helps your gather good requirements. Tells a story about what a system does.
+Start Condition: This is always the first step in the use case.
+Requirement: Something a system needs to do to be a success.
+Clear Value: Without this, a use case isn't worth anything to anyone. Use cases without this always fail.
+Stop Condition: Lets you know when a use case is finished. Without this, use cases can go on forever.
+Main Path: What a system does when everything is going right. This is usually what customers describe when they're talking about the system.
