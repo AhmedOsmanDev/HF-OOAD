@@ -6,6 +6,10 @@ So what exactly is a requirements, anyway? It's a specific thing your system has
         * When it comes to requirements, the best thing you can do it let the customer talk. And pay attention to what the system need to do; you can figure out how the system will do those thing later.
         * The best way to get good requirements is to understand what a system is supposed to do.
         * Plan for things going wrong
+        * Good requirements ensure your system works like your customers expect.
+        * Make sure your requirements cover all the steps in the use cases for your system.
+        * Use your use cases to find out about things your customers forgot to tell you.
+        * Your use cases will reveal any incomplete or missing requirements that your might have to add to your system.
     - Use case: is what people call the steps that a system takes to make something happen. A use case describes what your system does to accomplish a particular customer goal.
         * Use cases are all about the "What".
         * Single use case focuses on a single goal.
@@ -22,6 +26,7 @@ So what exactly is a requirements, anyway? It's a specific thing your system has
         * Is a use case the same as a use case diagram? No, use cases are usually a list of steps. Use case diagrams are a way to show use cases visually, but we've already been working on our own diagram of how the system works.
         * And a use case is what the system does to accomplish a goal? Now you've got it. If you write down what the system needs to do to perform a task, you've probably got a use case.
         * If the use case doesn't help me write my code, then what's the point? Why spend all this time on use cases? Use cases do help you write your code - they just aren't specific about programming details. Remember, you'll never write great software if you can't deliver an app that does what the customer wants it to do. Use cases are a tool to help you figure that out - and then you're ready to write code to actually implement the system your use case describes.
+        * Good use case make for good requirements, but a bad - or incomplete - use case can result in bad requirements!
 
 Checking your requirements against your use cases
     - Now you need to go back to your requirements and make sure that they'll cover everything your system has to do. And that's where the use case comes in.
@@ -35,3 +40,44 @@ Requirement: Something a system needs to do to be a success.
 Clear Value: Without this, a use case isn't worth anything to anyone. Use cases without this always fail.
 Stop Condition: Lets you know when a use case is finished. Without this, use cases can go on forever.
 Main Path: What a system does when everything is going right. This is usually what customers describe when they're talking about the system.
+
+Bullet Points
+    * Requirements are things your system must do to work correctly.
+    * Your initial requirements usually come from your customer.
+    * To make sure you have a good set of requirement, you should develop use cases for your system.
+    * Use cases details exactly what your system should do.
+    * A use case has a single goal, but can have multiple paths to reach that goal.
+    * A good use case has a starting and stopping condition, an external initiator, and clear value to the user.
+    * A use case is simply a story about how your system works.
+    * You will have at least one use case for each goal that your system must accomplish.
+    * After your use cases are complete, you can refine and add to your requirements.
+    * A requirements list that makes all your use cases possible is a good set of requirements.
+    * Your system must work in the real world, not just when everything goes as you expect it to.
+    * When things go wrong, your system must have alternate paths to reach the system's goal.
+
+OOA&D Cross: -
+    4. The main path is sometimes called the HAPPY path.
+    5. A use case must have this (two words) to the user. CLEAR VALUE
+    8. Requirements ensure that your system works CORRECTLY.
+    10. In the dog door system, who was the external initiator? FIDO
+    13. Use cases focus on a PARTICULAR user goal.
+    14. When Fido is here, the dog door has hit its stop condition. INSIDE
+    16. A use case is just a list of things that a system DOES.
+    18. A use case tells a STORY about how a system works.
+    21. Use cases are easeist to understand when they're in this kind of language. EVERYDAY
+    22. Good use cases make for GOOD requirements.
+    24. A use case helps you understand how a system will be USED.
+    25. Use cases help your gather REQUIREMENTS.
+    1. A use case details how a system INTERACTS with users or other systems.
+    2. When things go right, you're on this. MAIN PATH
+    3. Use cases are all about the "WHAT" of your system.
+    6. Without use cases, you won't know if your requirements are COMPLETE.
+    7. If you have four goals in a system, you'll have at least this many use cases. FOUR
+    9. Good systems work in the REAL WORLD.
+    11. Fido does this to signal the start of the dog door system's use case. BARK
+    12. When things go wrong, you end up on an ALTERNATE path.
+    15. Fido isn't part of this, but his dog door is. SYSTEM
+    17. This is what you should do to the customer to gather an initial set of requirements. LISTEN
+    19. How many use cases are there in Todd and Gina's dog door? ONE
+    20. Fido was chasing these when he got stuck outside. BUGS
+    23. A requirement documents this many needs. ONE
