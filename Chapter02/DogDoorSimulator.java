@@ -10,7 +10,7 @@ public class DogDoorSimulator {
         System.out.println("\nFido's all done...");
 
         try {
-            Thread.currentThread().sleep(10000);
+            Thread.sleep(10000);
         } catch (InterruptedException e) {
         }
 
