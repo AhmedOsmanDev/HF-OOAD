@@ -1,6 +1,7 @@
 
 *.iml
 *.pdf
+*.ppt
 *.code-workspace
 
 *.class
