@@ -1,12 +1,12 @@
 public class BarkRecognizer {
-    private Remote remote;
+    private DogDoor door;
 
-    public BarkRecognizer(Remote remote) {
-        this.remote = remote;
+    public BarkRecognizer(DogDoor door) {
+        this.door = door;
     }
 
     public void recognize(String bark) {
         System.out.println("    BarkRecognizer: Heard a '" + bark + "'");
-        remote.pressButton();
+        door.open();
     }
 }

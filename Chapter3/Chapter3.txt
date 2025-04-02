@@ -3,6 +3,43 @@ No matter how well you design an application, over time the application will alw
     * Requirements always change. If you've got good use cases, though, you can usually change your software quickly to adjust to those new requirements.
     * Any time you change your use case, you need to go back and check your requirements.
         - Remember, the whole point of a good use case is to get good requirements.
+    * Sometimes a change in requirements reveals problems with your system that you didn't even know were there.
+    * Change is constant, and your system should always improve every time you work on it.
 
 A complete path through a use case, from the first step to the last, is called a scenario.
     * Most use cases have several different scenarios, but they always share the same user goal.
+
+Requirements
+    * Good requirements ensure your system works like your customers expect.
+    * Make sure your requirements cover all the steps in the use cases for your system.
+    * Use your use cases to find out about things your customers forgot to tell you.
+    * Your use cases will reveal any incomplete or missing requirements that you might have to add to your system.
+    * Your requirements will always change (and grow) over time.
+    * Requirements will always change as a project progresses.
+    * When requirements change, your system has to evolve to handle the new requirements.
+    * When your system needs to work in a new or different way, begin by updating your use case.
+    * A scenario is a single path through a use case, from start to finish.
+    * A single use case can have multiple scenarios, as long as each scenario has the same customer goal.
+    * Alternate paths can be steps that occur only some of the time, or provide completely different paths through parts of a use case.
+    * If a step is optional in how a system works, or a step provides an alternate path through a system, use numbered sub-steps.
+    * You should almost always try to avoid duplicate code. It's a maintenance nightmare, and usually points to problems in how you've designed your system.
+
+OO Principles
+    * Encapsulate what varies.
+
+OOA&D Cross: -
+    2. We made this responsible for closing the dog door. DOG DOOR
+    4. This is what your follow in a use case most of the time. MAIN PATH
+    5. When your use case changes, these often change as well. REQUIREMENTS
+    6. Requirements always change over TIME.
+    8. We had to add this to our dog door to satisfy Todd and Gina. BARK RECOGNIZER
+    10. When your system changes, you should always update this before writing code. USE CASE
+    11. Use cases often have MULTIPLE scenarios.
+    12. Many real-world applications involve both software and this. HARDWARE
+    13. The one constant in software analysis and design. CHANGE
+    1. If a step is optional, use this in your use case. SUB STEP
+    2. Always avoid DUPLICATE code.
+    3. A set of steps that don't always occur in your use case. ALTERNATE PATH
+    7. Do this to things that vary. ENCAPSULATE
+    9. The main path is also called this. HAPPY PATH
+    10. Every scenario in a use case shares the same USER GOAL.
