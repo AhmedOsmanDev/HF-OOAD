@@ -1,0 +1,8 @@
+
+No matter how well you design an application, over time the application will always grow and change.
+    * Requirements always change. If you've got good use cases, though, you can usually change your software quickly to adjust to those new requirements.
+    * Any time you change your use case, you need to go back and check your requirements.
+        - Remember, the whole point of a good use case is to get good requirements.
+
+A complete path through a use case, from the first step to the last, is called a scenario.
+    * Most use cases have several different scenarios, but they always share the same user goal.
