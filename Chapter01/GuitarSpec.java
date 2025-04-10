@@ -17,21 +17,31 @@ public class GuitarSpec {
         this.topWood = topWood;
     }
 
-    public boolean equals(GuitarSpec anObject) {
-        if (builder != anObject.builder)
-            return false;
-        if (model != null && !model.equals(anObject.model))
-            return false;
-        if (type != anObject.type)
-            return false;
-        if (numStrings != anObject.numStrings)
-            return false;
-        if (backWood != anObject.backWood)
-            return false;
-        if (topWood != anObject.topWood)
-            return false;
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
 
-        return true;
+        if (obj instanceof GuitarSpec) {
+            GuitarSpec guitarSpec = (GuitarSpec) obj;
+
+            if (builder != guitarSpec.builder)
+                return false;
+            if (model != null && !model.equals(guitarSpec.model))
+                return false;
+            if (type != guitarSpec.type)
+                return false;
+            if (numStrings != guitarSpec.numStrings)
+                return false;
+            if (backWood != guitarSpec.backWood)
+                return false;
+            if (topWood != guitarSpec.topWood)
+                return false;
+
+            return true;
+        }
+
+        return false;
     }
 
     public Builder getBuilder() {

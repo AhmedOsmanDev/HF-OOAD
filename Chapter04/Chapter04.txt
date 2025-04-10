@@ -1,0 +1,21 @@
+
+Analysis: helps you ensure your system works in a real-world context.
+    1. Identify the problem: The first step in good analysis is figuring out potential problems.
+    2. Plan a solution:
+
+There's usually more than one way to solve a problem, and there's not always just one "right" solution.
+Just as there is usually more than one solution to a problem, there is usually more than one way to write that solution in a use case.
+Use cases are very precise. If your use case doesn't detail exactly what your system is supposed to do, then you could miss an important requirement or two and end up with unhappy customers. But, use cases don't have to be very formal; in other words, your use case may not look like ours, and ours might not look like anyone else's. The important thing is that your use case makes sense to you, and that you can explain it to your co-workers, boss, and customers.
+
+Write your use cases in a way that makes sense to you, your boss, and your customers.
+Analysis and your use case let you show customers, managers, and other developers how your system works in a real world context.
+
+Delegation helps our applications stay loosely coupled. That means that your objects are independent of each other; in other words, changes to one object don't require you to make a bunch of changes to other objects. So with delegation and loosely coupled application, you can change the implementation of one object, and your won't have to change all the other objects in your application. Your objects are shielded from implementation changes in other objects.
+    * Delegation shields your objects from implementation changes to other objects in your software.
+
+The nouns in a use case are usually the classes you need to write and focus on in your system.
+    * Looking at the nouns (and verbs) in your use case to figure out classes and methods is called textual analysis.
+
+A good use case clearly and accurately explains what a system does, in language that's easily understood.
+    * With a good use case complete, textual analysis is a quick and easy way to figure out the classes in your system.
+    * Textual analysis tells you what to focus on, not just what classes you should create.
