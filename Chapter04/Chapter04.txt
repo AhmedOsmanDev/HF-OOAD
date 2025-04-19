@@ -15,7 +15,57 @@ Delegation helps our applications stay loosely coupled. That means that your obj
 
 The nouns in a use case are usually the classes you need to write and focus on in your system.
     * Looking at the nouns (and verbs) in your use case to figure out classes and methods is called textual analysis.
+    * Pay attention to the nouns in your use case, even when they aren't classes in your system.
+    * Think about how the classes you do have can support the behavior your use case describes.
+    * It seems like if the nouns in the use case are usually the classes in my system, then the verbs in my use case are my methods.
+    * The verbs in your use case are (usually) the methods of the objects in your system.
+    * The nouns are candidates for classes... not every noun will be a class.
+    * The verbs are candidates for methods... not every verb will be a method.
 
 A good use case clearly and accurately explains what a system does, in language that's easily understood.
     * With a good use case complete, textual analysis is a quick and easy way to figure out the classes in your system.
     * Textual analysis tells you what to focus on, not just what classes you should create.
+
+Why didn't Maria create a Dog class?
+    1. The dog is external to the system, and you usually don't need to represent things external to the system.
+        * There are times when you might do this, but usually only when your need to interact with those external things. We don't need to interact with the dog.
+    2. Dog isn't a software object (and shouldn't be)... you usually don't represent living things with a class unless the system is going to store long-term information about that thing.
+        * You'll often see classes like User or Manager, but these represent roles in a system, or store credit cards or addresses. A dog doesn't fit any of those patterns.
+    3. Even if you had a Dog class, it wouldn't help the rest of the system. For example, you can't really "store" a Dog in the dog door; that doesn't make any sense.
+        * You could have a reference to the Dog class in your DogDoor object, but how do you store a dog within a door in the real world? Remember, what works in software doesn't always work in real life. Make sure your application are real-world compatible!
+
+Class Diagram Dissected
+    * A solid line from one class to another is called an association. It means that one class is associated with another class, by reference, extension, inheritance, etc.
+    * This line goes from the source class (Remote) to the target class (DogDoor). This means that the source class, Remote, has an attribute of type DogDoor, the target class.
+    * When you're using association to represent attributes, you usually do not write the attribute that the association represents in the class's attribute section. That's why Remote no longer has a door attribute here.
+    * The DogDoor class has an attribute named allowedBarks, which stores Bark objects.
+    * The multiplicity of the allowedBarks attribute is unlimited. That means that barks can store an unlimited number of Bark objects.
+    * The name of the attribute in the source class is written here, at the target end of the line. So the Remote class has an attribute called door, of type DogDoor.
+    * This number is the multiplicity of this association. It's how many of the target type is stored in the attribute of the source class. In this case, the door attribute stores a single DogDoor.
+
+Class diagrams aren't everything: Class diagrams are great for modeling the classes you need to create, but they don't provide all the answers you'll need in programming your system.
+    * Class diagrams provide limited type information
+    * Class diagrams don't tell you how to code your methods
+    * Class diagrams only give you a 10,000 foot view of your system
+
+Bullet Points
+    * Analysis helps you ensure that your software works in the real world context, and not just in a perfect environment.
+    * Use cases are meant to be understood by you, your managers, your customers, and other programmers.
+    * You should write your use cases in whatever format makes them most usable to you and the other people who are looking at them.
+    * A good use case precisely lays out what a system does, but does not indicate how the system accomplishes that task.
+    * Each use case should focus on only one customer goal. If you have multiple goals, you will need to write multiple use cases.
+    * Class diagrams give you an easy way to show your system and its code constructs at a 10,000-foot view.
+    * The attributes in a class diagram usually map to the member variables of your classes.
+    * The operations in a class diagram usually represent the methods of your classes.
+    * Class diagrams leave lots of detail out, such as class constructors, some type information, and the purpose of operations on your classes.
+    * Textual analysis helps you translate a use case into code-level classes, attributes, and operations.
+    * The nouns of a use case are candidates for classes in your system, and the verbs are candidates for methods on your system's classes.
+
+What's my Definition
+    * Noun Analysis: You do this to your use case to figure out what classes you need in your system.
+    * Multiplicity: Describes how many of a specific type can be stored in an attribute of a class.
+    * Attribute: Equivalent to a member variable in a class.
+    * Class Diagram: List all the code-level constructs, along with their attributes and operations.
+    * Operation: This is the UML term that usually represents a method in one of your classes.
+    * Association: Visually shows that one class has a relation too another class, usually through an attribute.
+    * Verb Analysis: Helps you figure out the candidates for methods on the objects in your system.
