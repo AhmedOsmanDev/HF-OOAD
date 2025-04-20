@@ -69,3 +69,23 @@ What's my Definition
     * Operation: This is the UML term that usually represents a method in one of your classes.
     * Association: Visually shows that one class has a relation too another class, usually through an attribute.
     * Verb Analysis: Helps you figure out the candidates for methods on the objects in your system.
+
+OOA&D Cross: -
+    1. Use cases should use this kind of language. CLEAR
+    5. Every class diagram has one of these for each member variable. ATTRIBUTE
+    10. This focuses on putting your application into the correct context. ANALYSIS
+    12. Software always works better in the testing lab than here. REAL WORLD
+    13. Maria won the laptop because she paid attention to the USE CASE.
+    14. This relates one class to another. ASSOCIATION
+    16. You write your use case so you can SATISFY your customers.
+    17. Use cases should be ACCURATE as well as easily understood.
+    18. UML is this type of modeling language. UNIFIED
+    2. Analysis makes sure your application works in this place. REAL WORLD
+    3. An operation is UML-ese for this. METHOD
+    4. You do this to your use cases to figure out the classes and operations in your system. TEXTUAL ANALYSIS
+    6. He replaced Fido as this chapter's star. BRUCE
+    7. Class diagrams are a great way to get this of your system. OVERVIEW
+    8. How many of a type an attribute can hold is its MULTIPLICITY.
+    9. These types of diagrams are worth a thousand words to a programmer. CLASS
+    11. Use cases aren't formal, but they are PRECISE.
+    15. Verb is to operation as this is to attribute. NOUN
