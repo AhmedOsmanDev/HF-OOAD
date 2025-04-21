@@ -1,0 +1,13 @@
+
+Change is inevitable: The harder you make it for your software to change, the more difficult it's going to be to respond to your customer's changing needs.
+
+Abstract classes are placeholders for actual implementation classes.
+    * The abstract class defines behavior, and the subclasses implement that behavior.
+    * Whenever you find common behavior in two or more places, look to abstract that behavior into a class, and then reuse that behavior in the common classes.
+
+Class Diagram Dissected (again)
+    * This line with a diamond means aggregation.
+        + Aggregation is a special form of association, and means that one thing is made up (in part) of another thing.
+    * When the name of a class is in italics, the class is abstract. Here, we don't want anyone creating instances.
+    * A line with an arrow that isn't colored in means generalization.
+        + You use a generalization to show that a class (like Mandolin) extends and inherits behavior from a more generalized class (like Instrument).

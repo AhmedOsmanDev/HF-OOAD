@@ -38,7 +38,6 @@ Class Diagram Dissected
     * A solid line from one class to another is called an association. It means that one class is associated with another class, by reference, extension, inheritance, etc.
     * This line goes from the source class (Remote) to the target class (DogDoor). This means that the source class, Remote, has an attribute of type DogDoor, the target class.
     * When you're using association to represent attributes, you usually do not write the attribute that the association represents in the class's attribute section. That's why Remote no longer has a door attribute here.
-    * The DogDoor class has an attribute named allowedBarks, which stores Bark objects.
     * The multiplicity of the allowedBarks attribute is unlimited. That means that barks can store an unlimited number of Bark objects.
     * The name of the attribute in the source class is written here, at the target end of the line. So the Remote class has an attribute called door, of type DogDoor.
     * This number is the multiplicity of this association. It's how many of the target type is stored in the attribute of the source class. In this case, the door attribute stores a single DogDoor.
